@@ -1,0 +1,26 @@
+.. opensource documentation master file, created by
+   sphinx-quickstart on Sat Apr  8 04:08:11 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to opensource's documentation!
+======================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+**Opensource** is one of the core building blocks of Software Development.
+- This page tracks all the projects demo-ed/resources provided during this talk.
+
+.. note::
+
+   This project is under active development.
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
