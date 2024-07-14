@@ -1,5 +1,10 @@
 # Date Posted : Apr 14 2022
 
+# Installation - 
+
+- `pip install python-box[all]~=7.0 --upgrade`
+
+
 # References : 
 
 - https://github.com/cdgriffith/Box
