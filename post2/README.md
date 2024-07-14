@@ -2,37 +2,37 @@
 
 These were, loosely, the different sections in [PEP-484](https://www.python.org/dev/peps/pep-0484/), the original introduction to TypeHints for Python3.5:
 
-0) History - POST 2-1✔️
-1) Introduction , Acceptable type hints - POST 2-1✔️
-2) Type aliases, Callable - POST 2-1✔️
-3) Generics, User-defined generic types - POST 2-1✔️
-4) Scoping rules for type variables
-5) Instantiating generic classes and type erasure
-6) Arbitrary generic types as base classes
-7) Abstract generic types
-8) Type variables with an upper bound
-9) Covariance and contravariance
-10) The numeric tower
-11) Forward references
-12) Union types
-13) Support for singleton types in unions
-14) The Any type
-15) The NoReturn type
-16) The type of class objects
-17) Annotating instance and class methods
-18) Version and platform checking
-19) Runtime or type checking?
-20) Arbitrary argument lists and default argument values
-21) Positional-only arguments
-22) Annotating generator functions and coroutines
-23) Compatibility with other uses of function annotations
-24) Casts
-25) NewType helper function
-26) Stub Files
-27) Function/method overloading
-28) Storing and distributing stub files
-29) The Typeshed Repo
-30) The typing Module
+1) History - POST 2-1✔️
+2) Introduction , Acceptable type hints - POST 2-1✔️
+3) Type aliases, Callable - POST 2-1✔️
+4) Generics, User-defined generic types - POST 2-1✔️
+5) Scoping rules for type variables
+6) Instantiating generic classes and type erasure
+7) Arbitrary generic types as base classes
+8) Abstract generic types
+9) Type variables with an upper bound
+10) Covariance and contravariance
+11) The numeric tower
+12) Forward references
+13) Union types
+14) Support for singleton types in unions
+15) The Any type
+16) The NoReturn type
+17) The type of class objects
+18) Annotating instance and class methods
+19) Version and platform checking
+20) Runtime or type checking?
+21) Arbitrary argument lists and default argument values
+22) Positional-only arguments
+23) Annotating generator functions and coroutines
+24) Compatibility with other uses of function annotations
+25) Casts
+26) NewType helper function
+27) Stub Files
+28) Function/method overloading
+29) Storing and distributing stub files
+30) The Typeshed Repo
+31) The typing Module
 
 This code repo accompanies the blog post explaining some of these sections.
 
