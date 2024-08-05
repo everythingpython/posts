@@ -1,5 +1,6 @@
 import sys
-import pandas as pd 
+import pandas as pd
+
 
 def pattern_matching(file_name):
     x = file_name.split(".")[-1]
@@ -18,12 +19,12 @@ def pattern_matching(file_name):
         case _:
             result = "Fail"
             print("Unrecognized file format.")
-    return (result,df)
+    return result, df
 
 
 filename = sys.argv[1]
-(result,df) = pattern_matching(filename)
-match result:
+res, df = pattern_matching(filename)
+match res:
     case "Fail":
         pass
     case "Success":

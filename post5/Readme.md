@@ -1,1 +1,3 @@
+- Run flask app from this folder 
+- `flask run`
 - https://github.com/Delgan/loguru
