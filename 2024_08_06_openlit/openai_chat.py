@@ -1,18 +1,15 @@
 import openlit
 import pandas as pd
-from dotenv import load_dotenv
-import openai
+from openai import OpenAI
+import os
 
 openlit.init(
   otlp_endpoint="http://127.0.0.1:4318",
 )
 
-load_dotenv()
 df = pd.read_csv("../data/Pokemon.csv")
-from openai import OpenAI
-import os
 
-client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 message = [
     {"role": "system", "content": f"You are a data analyst. "
